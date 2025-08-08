@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: heartdiseaseprediction
+  description: A software component for predicting heart disease using machine learning models.
+  annotations:
+    github.com/project-slug: Musquan/HeartDiseasePrediction
+    jira/project-key: SCRUM
+    jira/label: backstage-component:heartdiseaseprediction
+spec:
+  type: application
+  owner: ICS
+  lifecycle: experimental
